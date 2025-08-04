@@ -11,7 +11,7 @@ namespace CSLMod.CSLMapView.Modding.UI
     internal class Globalization
     {
         internal const string DEFAULT_LANGUAGE = "en";
-        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr", "es", "ru", "ko", "de", "nl", "pl", "pt" };
+        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr", "es", "ru", "ko", "de", "nl", "pl", "pt" , "tr" };
         private Dictionary<string, Dictionary<StringKeys, string>> strings;
         /// <summary>
         /// 文字列のキー
@@ -89,6 +89,8 @@ namespace CSLMod.CSLMapView.Modding.UI
             initPl(strings["pl"]);
             strings.Add("pt", new Dictionary<StringKeys, string>());
             initPt(strings["pt"]);
+            strings.Add("tr", new Dictionary<StringKeys, string>());
+            initTr(strings["tr"]);
         }
         private void initJa(Dictionary<StringKeys, string> dic)
         {
@@ -243,6 +245,21 @@ namespace CSLMod.CSLMapView.Modding.UI
             dic.Add(StringKeys.Compress, "Comprimir .cslmap (outputs *.cslmap.gz)");
             dic.Add(StringKeys.AddTimestampToFileName, "Adicionar marca de tempo ao nome do arquivo");
             dic.Add(StringKeys.AutoExportOnSave, "Exportação automática ao salvar o jogo");
+
+        }
+        private void initTr(Dictionary<StringKeys, string> dic)
+        {
+            dic.Add(StringKeys.Export, "Dışa Aktar");
+            dic.Add(StringKeys.ExportAndRun, "CSLMapView'ı Dışa Aktarın ve Çalıştırın");
+            dic.Add(StringKeys.DescLabelExeOutputPath, "CSLMapView Program Dizini (Otomatik olarak kurulacaktır)");
+            dic.Add(StringKeys.DescLabelCslmapOutputPath, "Harita dosyasının dizini (*.cslmap)");
+            dic.Add(StringKeys.FailedToExportMap, "Harita dışa aktarılamadı.");
+            dic.Add(StringKeys.FailedToCopyFile, "Dosyalar kopyalanamadı.");
+            dic.Add(StringKeys.NotInGame, "Harita yüklenmedi.");
+            dic.Add(StringKeys.FailedToRunViewer, $"{CSLMapView.VIEWER_EXE} çalıştırılamadı");
+            dic.Add(StringKeys.Compress, ".cslmap (outputs *.cslmap.gz)'i sıkıştır");
+            dic.Add(StringKeys.AddTimestampToFileName, "Dosya adına zaman bilgisi ekle");
+            dic.Add(StringKeys.AutoExportOnSave, "Oyun kaydedilirken otomatik dışa aktarma");
         }
         /// <summary>
         /// デフォルト言語での文字列を取得します。
@@ -282,3 +299,4 @@ namespace CSLMod.CSLMapView.Modding.UI
         }
     }
 }
+
