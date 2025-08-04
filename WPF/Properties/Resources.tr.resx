@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoColoring" xml:space="preserve">
+    <value>Otomatik Renklendirme</value>
+  </data>
+  <data name="Blimp" xml:space="preserve">
+    <value>Zeplin</value>
+  </data>
+  <data name="BlimpLines" xml:space="preserve">
+    <value>Zeplin Hatları</value>
+  </data>
+  <data name="BlimpStops" xml:space="preserve">
+    <value>Zeplin Durakları</value>
+  </data>
+  <data name="Bus" xml:space="preserve">
+    <value>Otobüs</value>
+  </data>
+  <data name="BusLines" xml:space="preserve">
+    <value>Otobüs Hatları</value>
+  </data>
+  <data name="BusStops" xml:space="preserve">
+    <value>Otobüs Durakları</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal Et</value>
+  </data>
+  <data name="CanvasSize" xml:space="preserve">
+    <value>Kanvas Boyutu</value>
+  </data>
+  <data name="DetectEndLoop" xml:space="preserve">
+    <value>Bitiş Döngüsünü Tespit Et</value>
+  </data>
+  <data name="DialogCaptionError" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="DisableBitmapCache" xml:space="preserve">
+    <value>Bitmap Önbelleğini Devre Dışı Bırak</value>
+  </data>
+  <data name="DisableBuildingBorder" xml:space="preserve">
+    <value>Bina Sınırlarını Devre Dışı Bırak</value>
+  </data>
+  <data name="DisplayContourLines" xml:space="preserve">
+    <value>Kontur Çizgilerini Göster</value>
+  </data>
+  <data name="DrawingTarget" xml:space="preserve">
+    <value>Çizim Hedefi</value>
+  </data>
+  <data name="Ferry" xml:space="preserve">
+    <value>Feribot</value>
+  </data>
+  <data name="FerryHarbors" xml:space="preserve">
+    <value>Feribot İskelesi</value>
+  </data>
+  <data name="FerryLines" xml:space="preserve">
+    <value>Feribot Hattı</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Yazı Tipi</value>
+  </data>
+  <data name="GridHeaderColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="GridHeaderRouteLength" xml:space="preserve">
+    <value>Uzunluk</value>
+  </data>
+  <data name="GridHeaderRouteName" xml:space="preserve">
+    <value>Rota Adı</value>
+  </data>
+  <data name="GridHeaderRouteNo" xml:space="preserve">
+    <value>Rota Numarası</value>
+  </data>
+  <data name="GridHeaderStops" xml:space="preserve">
+    <value>Duraklar</value>
+  </data>
+  <data name="GridHeaderType" xml:space="preserve">
+    <value>Türler</value>
+  </data>
+  <data name="GridHeaderVisible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="HideAll" xml:space="preserve">
+    <value>Hepsini Gizle</value>
+  </data>
+  <data name="MapStyle" xml:space="preserve">
+    <value>Harita Türü</value>
+  </data>
+  <data name="MarkOneWayRoutes" xml:space="preserve">
+    <value>Tek Yönlü Rotaları İşaretleyin</value>
+  </data>
+  <data name="MaxParallelism" xml:space="preserve">
+    <value>Maksimum paralellik (kontur hesaplaması)</value>
+  </data>
+  <data name="MenuItemBuilding" xml:space="preserve">
+    <value>Binalar</value>
+  </data>
+  <data name="MenuItemBuildingName" xml:space="preserve">
+    <value>Bina Adları</value>
+  </data>
+  <data name="MenuItemDisableBitmapCache" xml:space="preserve">
+    <value>Bitmap Önbelleğini Devre Dışı Bırak</value>
+  </data>
+  <data name="MenuItemDistrictName" xml:space="preserve">
+    <value>Semtler</value>
+  </data>
+  <data name="MenuItemExit" xml:space="preserve">
+    <value>Çıkış (_X)</value>
+  </data>
+  <data name="MenuItemFile" xml:space="preserve">
+    <value>Dosya (_F)</value>
+  </data>
+  <data name="MenuItemForest" xml:space="preserve">
+    <value>Orman</value>
+  </data>
+  <data name="MenuItemGrid" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="MenuItemHelp" xml:space="preserve">
+    <value>Yardım (_H)</value>
+  </data>
+  <data name="MenuItemLayerSetting" xml:space="preserve">
+    <value>_Görünürlük</value>
+  </data>
+  <data name="MenuItemList" xml:space="preserve">
+    <value>_Listeler</value>
+  </data>
+  <data name="MenuItemMapSymbol" xml:space="preserve">
+    <value>Harita Sembolleri</value>
+  </data>
+  <data name="MenuItemOpenFile" xml:space="preserve">
+    <value>Aç (_O)</value>
+  </data>
+  <data name="MenuItemPrint" xml:space="preserve">
+    <value>_Yazdır (alpha)</value>
+  </data>
+  <data name="MenuItemRailway" xml:space="preserve">
+    <value>Demiryolları</value>
+  </data>
+  <data name="MenuItemRemovePrintArea" xml:space="preserve">
+    <value>Yazdırma Sınırlarını Kaldır</value>
+  </data>
+  <data name="MenuItemRoad" xml:space="preserve">
+    <value>Yollar</value>
+  </data>
+  <data name="MenuItemRoadName" xml:space="preserve">
+    <value>Yol Adları</value>
+  </data>
+  <data name="MenuItemRotate" xml:space="preserve">
+    <value>_Haritayı Döndür</value>
+  </data>
+  <data name="MenuItemSaveHeightMap" xml:space="preserve">
+    <value>Yükseklik Haritasını Kaydet (_H)</value>
+  </data>
+  <data name="MenuItemSaveImage" xml:space="preserve">
+    <value>Resmi Kaydet (_S)</value>
+  </data>
+  <data name="MenuItemSetPrintArea" xml:space="preserve">
+    <value>Yazdırma Sınırlarını Ayarlayın</value>
+  </data>
+  <data name="MenuItemSettingWindow" xml:space="preserve">
+    <value>Ayarları Gör</value>
+  </data>
+  <data name="MenuItemTargetAreas" xml:space="preserve">
+    <value>_Hedef Bölümler</value>
+  </data>
+  <data name="MenuItemTerrain" xml:space="preserve">
+    <value>Arazi</value>
+  </data>
+  <data name="MenuItemTransport" xml:space="preserve">
+    <value>Rotaların Numaralandırılması</value>
+  </data>
+  <data name="MenuItemTransportRoute" xml:space="preserve">
+    <value>Toplu Taşıma Güzergahı</value>
+  </data>
+  <data name="MenuItemTransportRouteList" xml:space="preserve">
+    <value>Toplu Taşıma Listesi</value>
+  </data>
+  <data name="MenuItemVersion" xml:space="preserve">
+    <value>Versiyon (_A)</value>
+  </data>
+  <data name="MenuItemView" xml:space="preserve">
+    <value>_Görüş</value>
+  </data>
+  <data name="MergeBusAndTram" xml:space="preserve">
+    <value>Yakındaki Otobüs ve Tramvay Duraklarını Birleştir</value>
+  </data>
+  <data name="MergeStopsWithin" xml:space="preserve">
+    <value>Durakları/İstasyonları Birleştir</value>
+  </data>
+  <data name="Metro" xml:space="preserve">
+    <value>Metro</value>
+  </data>
+  <data name="MetroLines" xml:space="preserve">
+    <value>Metro Hatları</value>
+  </data>
+  <data name="MetroStations" xml:space="preserve">
+    <value>Metro İstasyonları</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Çeşitli</value>
+  </data>
+  <data name="Monorail" xml:space="preserve">
+    <value>Tek Raylı Tren</value>
+  </data>
+  <data name="MonorailLines" xml:space="preserve">
+    <value>Tek Raylı Tren Hatları</value>
+  </data>
+  <data name="MonorailStations" xml:space="preserve">
+    <value>Tek Raylı Tren İstasyonları</value>
+  </data>
+  <data name="MsgFailToLoadFile" xml:space="preserve">
+    <value>Yükleme Başarısız {0}.</value>
+  </data>
+  <data name="MsgInvalidInput" xml:space="preserve">
+    <value>"{0}" Değeri İçin Yetkiniz Yok.</value>
+  </data>
+  <data name="MsgLoadingFile" xml:space="preserve">
+    <value>{0} Yükleniyor...</value>
+  </data>
+  <data name="MsgOutOfMemory" xml:space="preserve">
+    <value>Hafıza Yetersiz.</value>
+  </data>
+  <data name="MsgRenderingError" xml:space="preserve">
+    <value>İşleme Sırasında Hata Oluştu.</value>
+  </data>
+  <data name="MsgSubBuildingRenderError" xml:space="preserve">
+    <value>Yapı Bilgisi Tutarsız.</value>
+  </data>
+  <data name="MsgSuccessToCreateFile" xml:space="preserve">
+    <value>{0} Başarılı Bir Şekilde Oluşturuldu.</value>
+  </data>
+  <data name="MsgTooLargeValue" xml:space="preserve">
+    <value>"{0}" Çok Büyük.</value>
+  </data>
+  <data name="MsgTooSmallValue" xml:space="preserve">
+    <value>"{0}" Çok Küçük.</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Onayla</value>
+  </data>
+  <data name="RedrawMap" xml:space="preserve">
+    <value>Haritayı Yeniden Çiz</value>
+  </data>
+  <data name="ReduceContrast" xml:space="preserve">
+    <value>Ulaşım Ağı ve Metin Dışında Kontrastı Azalt</value>
+  </data>
+  <data name="RoadName" xml:space="preserve">
+    <value>Yol Adları</value>
+  </data>
+  <data name="RotateMap" xml:space="preserve">
+    <value>Haritayı Döndür</value>
+  </data>
+  <data name="RouteDrawingTarget" xml:space="preserve">
+    <value>Rotanın Çizim Hedefi</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Hepsini Göster</value>
+  </data>
+  <data name="SVGImageSize" xml:space="preserve">
+    <value>Çıktı Görüntü Boyutu (Uzun Kenar)</value>
+  </data>
+  <data name="TabCaptionGeneral" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="TargetAreas" xml:space="preserve">
+    <value>Hedef Alanlar</value>
+  </data>
+  <data name="Train" xml:space="preserve">
+    <value>Tren</value>
+  </data>
+  <data name="TrainLines" xml:space="preserve">
+    <value>Tren Hatları</value>
+  </data>
+  <data name="TrainStations" xml:space="preserve">
+    <value>Tren İstasyonları</value>
+  </data>
+  <data name="Tram" xml:space="preserve">
+    <value>Tranvay</value>
+  </data>
+  <data name="TramLines" xml:space="preserve">
+    <value>Tranvay Hatları</value>
+  </data>
+  <data name="TramStops" xml:space="preserve">
+    <value>Tranvay Durakları</value>
+  </data>
+  <data name="UseVectorizedTerrain" xml:space="preserve">
+    <value>Kullanılan Vektörleştirilmiş Arazi</value>
+  </data>
+  <data name="WidenOnSameSegment" xml:space="preserve">
+    <value>Yollar Aynı Segmentteyse Çizgiyi Genişletin</value>
+  </data>
+  <data name="WindowTitleTransportList" xml:space="preserve">
+    <value>CSL Harita Görünümü - Toplu Taşıma Listesi</value>
+  </data>
+  <data name="ZeroForAuto" xml:space="preserve">
+    <value>(0=oto)</value>
+  </data>
+  <data name="HideRICO" xml:space="preserve">
+    <value>R/I/C/O Binalarını Gizle</value>
+  </data>
+  <data name="BuildingWindowDescLabel" xml:space="preserve">
+    <value>Bina Görünürlüğü ve Harita Simgesi Sağ Tık Menüsünden Özelleştirilebilir.</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Onayla</value>
+  </data>
+  <data name="ConfirmBuildingCustomizeReset" xml:space="preserve">
+    <value>Tüm Düzenlemeleri Sıfırlamak İstiyor Musun? Bu İşlem Geri Alınamaz./value>
+  </data>
+  <data name="DefaultMapSymbolType" xml:space="preserve">
+    <value>Varsayılan Harita Sembol Türü</value>
+  </data>
+  <data name="GridHeaderBuildingCount" xml:space="preserve">
+    <value>Say</value>
+  </data>
+  <data name="GridHeaderBuildingName" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="GridHeaderMapSymbol" xml:space="preserve">
+    <value>Sembol</value>
+  </data>
+  <data name="GridHeaderShapeVisible" xml:space="preserve">
+    <value>Şekli Göster</value>
+  </data>
+  <data name="MenuItemBuildingList" xml:space="preserve">
+    <value>Bina Listesi</value>
+  </data>
+  <data name="MenuItemDefault" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="MenuItemForceInvisible" xml:space="preserve">
+    <value>Görünmezliğe Zorla</value>
+  </data>
+  <data name="MenuItemForceVisible" xml:space="preserve">
+    <value>Görünürlüğe Zorla</value>
+  </data>
+  <data name="ResetCustomize" xml:space="preserve">
+    <value>Tüm Düzenlemeleri İptal Et</value>
+  </data>
+  <data name="WindowTitleBuildingList" xml:space="preserve">
+    <value>CSL Harita Görünümü - Bina Listesi</value>
+  </data>
+  <data name="MergedRouteNumberings" xml:space="preserve">
+    <value>Birleşik Rota Numaralandırılması</value>
+  </data>
+  <data name="AltitudeInterval" xml:space="preserve">
+    <value>Yükseklik Aralığı</value>
+  </data>
+  <data name="OutputStringAsPath" xml:space="preserve">
+    <value>Çıktı Dizelerini Yol OLarak Kullan</value>
+  </data>
+  <data name="SettingsForVectorizedTerrainMode" xml:space="preserve">
+    <value>Vektörleştirilmiş Arazi Modu Ayarları</value>
+  </data>
+  <data name="CableCar" xml:space="preserve">
+    <value>Teleferik</value>
+  </data>
+  <data name="ParkName" xml:space="preserve">
+    <value>Park Adları</value>
+  </data>
+  <data name="MergeTrainAndMetro" xml:space="preserve">
+    <value>Yakın Tren ve Metro İstasyonlarını Birleştir</value>
+  </data>
+  <data name="GridHeaderNameVisible" xml:space="preserve">
+    <value>Adı Göster</value>
+  </data>
+  <data name="MenuItemVisibleAssetName" xml:space="preserve">
+    <value>Görünür (Özelleştirilmemişse varlık adını göster) </value>
+  </data>
+
+</root>
